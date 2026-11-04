@@ -7,7 +7,7 @@ total_tasks = 20
 tasks_ok = int(input('Input the number of correctly completed tasks: '))
 test_passed = False
 
-if tasks_ok >= 10 :
+if tasks_ok >= total_tasks / 2:
     test_passed = True
 
 if test_passed:
